@@ -1,7 +1,8 @@
 import express from "express";
+import "dotenv/config";
 
 const app = express();
-const port = 4000;
+const port = process.env.PORT || 4000;         // It will firstly check .env file , and use the PORT described there , if not found there , then it will use the PORT defined here
 app.use(express.json());
 
 let greetData = [];
