@@ -1,0 +1,23 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/greetings\",\"status\":\"200\",\"responseTime\":\"13.866\"}","timestamp":"2025-05-31T06:01:46.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/favicon.ico\",\"status\":\"404\",\"responseTime\":\"7.732\"}","timestamp":"2025-05-31T06:01:47.101Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"201\",\"responseTime\":\"6.069\"}","timestamp":"2025-05-31T06:12:05.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"500\",\"responseTime\":\"4.350\"}","timestamp":"2025-05-31T06:13:01.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"201\",\"responseTime\":\"0.681\"}","timestamp":"2025-05-31T06:13:42.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"500\",\"responseTime\":\"2.150\"}","timestamp":"2025-05-31T06:13:52.962Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"500\",\"responseTime\":\"2.382\"}","timestamp":"2025-05-31T06:14:06.779Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"500\",\"responseTime\":\"1.473\"}","timestamp":"2025-05-31T06:14:26.593Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/greetings\",\"status\":\"200\",\"responseTime\":\"1.111\"}","timestamp":"2025-05-31T06:14:56.565Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/favicon.ico\",\"status\":\"404\",\"responseTime\":\"2.465\"}","timestamp":"2025-05-31T06:14:56.673Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"500\",\"responseTime\":\"2.154\"}","timestamp":"2025-05-31T06:15:42.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"201\",\"responseTime\":\"0.771\"}","timestamp":"2025-05-31T06:16:10.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/greetings/3\",\"status\":\"200\",\"responseTime\":\"1.409\"}","timestamp":"2025-05-31T06:16:29.761Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/greetings/3\",\"status\":\"200\",\"responseTime\":\"0.602\"}","timestamp":"2025-05-31T06:17:26.601Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"500\",\"responseTime\":\"0.965\"}","timestamp":"2025-05-31T06:17:40.286Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/greetings/2\",\"status\":\"500\",\"responseTime\":\"1.666\"}","timestamp":"2025-05-31T06:17:50.424Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"500\",\"responseTime\":\"5.430\"}","timestamp":"2025-05-31T06:19:17.313Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"201\",\"responseTime\":\"2.727\"}","timestamp":"2025-05-31T06:21:24.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"500\",\"responseTime\":\"1.765\"}","timestamp":"2025-05-31T06:21:30.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"201\",\"responseTime\":\"0.637\"}","timestamp":"2025-05-31T06:23:57.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/greetings\",\"status\":\"200\",\"responseTime\":\"1.300\"}","timestamp":"2025-05-31T06:24:12.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A post request is made to add a new greet","timestamp":"2025-05-31T06:28:07.134Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/greetings\",\"status\":\"201\",\"responseTime\":\"15.619\"}","timestamp":"2025-05-31T06:28:07.150Z"}

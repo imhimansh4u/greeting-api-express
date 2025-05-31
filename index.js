@@ -1,14 +1,36 @@
 import express from "express";
 import "dotenv/config";
 
+import logger from "./logger.js";
+import morgan from "morgan";
+
 const app = express();
-const port = process.env.PORT || 4000;         // It will firstly check .env file , and use the PORT described there , if not found there , then it will use the PORT defined here
+const port = process.env.PORT || 4000; // It will firstly check .env file , and use the PORT described there , if not found there , then it will use the PORT defined here
 app.use(express.json());
+
+const morganFormat = ":method :url :status :response-time ms"; // we can modify this ac to us , but as i am a fresher i have copied it
+
+app.use(
+  morgan(morganFormat, {
+    stream: {
+      write: (message) => {
+        const logObject = {
+          method: message.split(" ")[0],
+          url: message.split(" ")[1],
+          status: message.split(" ")[2],
+          responseTime: message.split(" ")[3],
+        };
+        logger.info(JSON.stringify(logObject));
+      },
+    },
+  })
+);
 
 let greetData = [];
 let nextId = 1; // just a way to uniquely identify data
 // adding a new greeting data
 app.post("/greetings", (req, res) => {
+  logger.info("A post request is made to add a new greet")
   // always prefer to use the post request in express , when you are using database
   const { say, time } = req.body;
   const LetsGreet = { id: nextId++, say, time };
@@ -55,7 +77,7 @@ app.delete("/greetings/:id", (req, res) => {
   if (index === -1) {
     return res.status(404).send("Not found");
   }
-  teaData.splice(index, 1);
+  greetData.splice(index, 1);
   return res.status(204).send("deleted");
 });
 
